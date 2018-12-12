@@ -22,11 +22,7 @@ public class DemoApplication {
 	public List<String> getPeople() {
 		List<String> list = new ArrayList<String>();
 		list.add("quinn");
+		list.add("Ian");
 		return list;
 	}
-	
-	public String getName() {
-		return "Bob";
-	}
-
 }
